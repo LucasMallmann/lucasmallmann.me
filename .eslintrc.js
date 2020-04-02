@@ -35,5 +35,13 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'global-require': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react/destructuring-assignment': 'off',
+  },
+  settings: {
+    'import/resolver': {
+      'babel-plugin-root-import': {
+        rootPathSuffix: 'src',
+      },
+    },
   },
 };

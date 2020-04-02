@@ -4,6 +4,8 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
     title: `Rocketseat`,
@@ -11,8 +13,8 @@ module.exports = {
     description: `Blazing fast modern site generator for React`,
     social: [
       {
-        name: "github",
-        url: "https://github.com/rocketseat",
+        name: 'github',
+        url: 'https://github.com/rocketseat',
       },
     ],
   },
@@ -56,14 +58,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
-        displayName: process.env.NODE_ENV !== "production",
+        displayName: process.env.NODE_ENV !== 'production',
       },
     },
     {
       resolve: `gatsby-plugin-page-creator`,
       options: {
         path: `${__dirname}/src/pages`,
-        ignore: ["**/styles.js"],
+        ignore: ['**/styles.js'],
       },
     },
     {
@@ -88,7 +90,13 @@ module.exports = {
         plugins: [],
       },
     },
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        '~': path.join(__dirname, 'src'),
+      },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
   ],
-}
+};
