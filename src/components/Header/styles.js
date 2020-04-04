@@ -6,7 +6,8 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 8px 12%;
-  background-color: #2f4859;
+  /* background-color: #2f4859; */
+  background-color: ${(props) => props.theme.colors.headerBackground};
 
   a {
     color: #f8f8f8;
@@ -15,8 +16,8 @@ export const Container = styled.header`
 `;
 
 export const Avatar = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
 
   display: flex;
 
