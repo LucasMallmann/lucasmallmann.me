@@ -1,10 +1,15 @@
-import React from "react"
-import { Container } from "./styles"
+import React from 'react';
+
+import Layout from '~/components/Layout';
+
+import { Container } from './styles';
 
 export default function About() {
   return (
-    <Container>
-      <h1>Hello world</h1>
-    </Container>
-  )
+    <Layout>
+      <Container>
+        <h1>Hello world</h1>
+      </Container>
+    </Layout>
+  );
 }

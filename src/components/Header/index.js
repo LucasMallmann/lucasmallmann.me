@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import { Container, Avatar } from './styles';
+import { Container, Avatar, Nav } from './styles';
 
 const Header = () => {
   return (
@@ -14,9 +14,11 @@ const Header = () => {
         <span>Lucas Mallmann</span>
       </Avatar>
 
-      <nav>
-        <Link to="/about">Sobre</Link>
-      </nav>
+      <Nav>
+        <Link to="/">hi</Link>
+        <Link to="/about">labs</Link>
+        <Link to="/about">blog</Link>
+      </Nav>
     </Container>
   );
 };
