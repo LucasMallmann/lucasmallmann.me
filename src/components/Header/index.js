@@ -11,7 +11,7 @@ const Header = () => {
           src="https://avatars3.githubusercontent.com/u/23031413?v=4"
           alt="avatar"
         />
-        <span>Lucas Mallmann</span>
+        <span>{`<Lucas Mallmann />`}</span>
       </Avatar>
 
       <Nav>

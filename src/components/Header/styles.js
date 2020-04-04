@@ -15,8 +15,8 @@ export const Container = styled.header`
 `;
 
 export const Avatar = styled.div`
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
 
   display: flex;
 
@@ -30,7 +30,7 @@ export const Avatar = styled.div`
 
   span {
     color: ${(props) => props.theme.colors.link};
-    font-size: 18px;
+    font-size: 22px;
     white-space: nowrap;
     margin-left: 12px;
   }
@@ -39,6 +39,7 @@ export const Avatar = styled.div`
 export const Nav = styled.nav`
   a {
     position: relative;
+    font-size: 20px;
 
     &:before {
       content: '';
