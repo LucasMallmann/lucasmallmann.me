@@ -133,6 +133,12 @@ const styles = css`
     background-color: #f5f5f5;
     border-radius: 1.5rem;
   }
+  body,
+  input,
+  button,
+  p {
+    color: ${(props) => props.theme.colors.text};
+  }
 `;
 
 export default createGlobalStyle(styles);

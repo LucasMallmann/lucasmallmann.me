@@ -6,5 +6,6 @@ export default {
     secondary: 'rgba(75, 198, 185, 1)',
     background: 'rgba(245, 245, 245, 1)',
     link: '#f8f8f8',
+    text: '#424242',
   },
 };
