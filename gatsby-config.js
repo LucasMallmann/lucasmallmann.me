@@ -96,6 +96,7 @@ module.exports = {
         '~': path.join(__dirname, 'src'),
       },
     },
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
   ],
