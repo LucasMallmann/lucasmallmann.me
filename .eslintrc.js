@@ -36,6 +36,7 @@ module.exports = {
     'global-require': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/destructuring-assignment': 'off',
+    'jsx-a11y/accessible-emoji': 'off',
   },
   settings: {
     'import/resolver': {

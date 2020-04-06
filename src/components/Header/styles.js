@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-  height: 70px;
+  height: 65px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,8 +15,8 @@ export const Container = styled.header`
 `;
 
 export const Avatar = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 
   display: flex;
 
